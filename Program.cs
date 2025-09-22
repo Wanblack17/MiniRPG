@@ -128,7 +128,7 @@ namespace udemy01
 
                 //agora é a vez do inimigo
 
-                int danoIninmigo = (rnd.Next(0, 51));
+                int danoIninmigo = (rnd.Next(0, 75));
                 int esquiva = jogador.GerarEsquiva(rnd);
                Mensagem("O inimigo te atacou!");
                 if (esquiva >= danoIninmigo)
